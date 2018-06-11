@@ -4,6 +4,6 @@
 </p>
 
 ## Quick start
-* Clone the repo: `git clone https://github.com/seveti/sassy-grid-starter.git`
+* Clone the repo: `git clone https://github.com/justinrunes/donut-three-js`
 * Install Node.js dependencies: `npm install`
-* Run the app: `grunt` and open index.html
+* Run the app: `grunt` and open index.html in /dist
