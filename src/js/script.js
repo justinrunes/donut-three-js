@@ -25,7 +25,7 @@ var material = new THREE.MeshBasicMaterial( { color: 0xee9354 } );
 var torus = new THREE.Mesh( geometry, material );
 scene.add( torus );
 
-camera.position.z = 60;
+camera.position.z = 50;
 
 var animate = function () {
     requestAnimationFrame( animate );
