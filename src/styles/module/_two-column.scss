@@ -1,0 +1,27 @@
+/* Two column with gap */
+.two-column {
+
+    // @include grid(columns, rows, number of elements, position start elements);
+    @include desktop-up {   
+        @include grid(1fr 1rem 1fr, auto);
+        @include grid-template(2, odd);
+    }
+
+    @include tablet-only {
+        @include grid(1fr 1rem 1fr, auto);
+        @include grid-template(2, odd);
+    }
+
+    @include mobile-only {
+        @include grid(1fr, auto 1rem auto);
+        @include grid-template(2, odd);
+    }
+
+    > * {
+        @include grid;
+    }
+
+}
+
+
+/* Modifiers */
