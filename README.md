@@ -1,6 +1,6 @@
 <h1 align="center">Donut Three.js</h1>
 <p align="center">
-    Donut using Three.js for Hari's competition</a>
+    A fresh donut out of the fryer using Three.js for Hari's competition</a>
 </p>
 
 ## Quick start
